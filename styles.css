@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    width: 550px;
+    height: 729px;
+    left: 76px;
+    top: 126px;
+    background: #F4F4F4;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+#title {
+    position: absolute;
+    width: 550px;
+    height: 285px;
+    left: 0px;
+    top: 0px;
+    background: #6943FF;
+}
+
+#input-number {
+    box-sizing: border-box;
+    position: absolute;
+    width: 117px;
+    height: 83px;
+    left: 217px;
+    top: 101px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#input-button {
+    position: absolute;
+    width: 117px;
+    height: 42px;
+    left: 217px;
+    top: 209px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3D3D3D;
+}
+
+#conversion {
+    background: #F4F4F4;
+}
+
+.box {
+    position: absolute;
+    width: 500px;
+    height: 108.57px;
+    left: 25px;
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+
+p {
+    position: absolute;
+    width: 471.92px;
+    height: 33.68px;
+    left: 14.04px;
+    top: 60.85px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #353535;
+}
+
+ #length {
+    top: 321px;
+}
+
+#volume {
+    top: 453px;
+}
+
+#mass {
+    top: 585px;
+}
+
+h2 {
+    position: absolute;
+    width: 346px;
+    height: 25px;
+    left: 77px;
+    top: 31px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #5A537B;
+}
