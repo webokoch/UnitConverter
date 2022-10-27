@@ -4,14 +4,12 @@ const lengthConversion = document.getElementById("length-conversion")
 const volumeConversion = document.getElementById("volume-conversion")
 const massConversion = document.getElementById("mass-conversion")
 
-
 btn.addEventListener('click', ()=>{
     const numberToConvert = input.value
     convertLength(numberToConvert)
     convertVolume(numberToConvert)
     convertMass(numberToConvert)
 })
-
 
 const convertLength = (num) => {
     const length = `${num} meters = ${(num * 3.281).toFixed(3)} feet | ${num} feet = ${(num / 3.281).toFixed(3)} meters`
